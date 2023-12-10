@@ -364,7 +364,7 @@
           </div>
         </div> -->
 
-        <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+        <div class="row gy-4 gap-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class=" py-4 col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
@@ -405,9 +405,9 @@
           </div>
           <div class=" py-4 col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/example/FlipArt.png" class="img-fluid" alt="">
+              <img src="assets/img/example/FlyWolds.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Fly Worls</h4>
+                <h4>FlyWorlds</h4>
                 <div class="portfolio-links">
                   <a href="https://flyworldindia.com/" target="_blank" title="More Details"><i
                       class="bi bi-link"></i></a>
@@ -432,7 +432,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/example/ultimatePixel.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>ultimatePixel</h4>
+                <h4>UltimatePixel</h4>
                 <div class="portfolio-links">
                   <a href="https://ultimatepixel.in/" target="_blank" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
@@ -467,7 +467,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/example/VishwakarmaTravels.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>vishwakarma-travels</h4>
+                <h4>Vishwakarma-travels</h4>
                 <div class="portfolio-links">
                   <a href="https://vishwakarma-travels.vercel.app/" target="_blank" title="More Details"><i
                       class="bi bi-link"></i></a>
@@ -475,6 +475,7 @@
               </div>
             </div>
           </div>
+
         </div>
       </div>
 
@@ -580,25 +581,25 @@
           <div class="col-lg-6">
             <form action="https://formspree.io/f/xpzgvjgw"  method="POST" class="php-email-form">
               <div class="row gy-4">
-
-                <div class="col-md-12">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                
+                <div class="col-md-12 ">
+                  <input type="text" class="form-control" name="name" placeholder="Your Name" autocomplete="off"  required>
                 </div>
 
                 <div class="col-md-12 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" autocomplete="off"  required>
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text"  class="form-control"  name="phone" placeholder="Phone Number"  required />
+                  <input type="text"  class="form-control"  name="phone" placeholder="Phone Number" autocomplete="off"   required />
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" autocomplete="off"  required>
                 </div>
 
                 <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" ></textarea>
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" autocomplete="off"  ></textarea>
                 </div>
 
                 <div class="col-md-12 text-center">
@@ -606,7 +607,7 @@
                   <div class="error-message"></div>
                   <div class="sent-message">Your message has been sent. Thank you!</div>
 
-                  <button type="submit">Send Message</button>
+                  <button type="submit" onclick="submitForm()">Send Message</button>
                 </div>
 
               </div>
