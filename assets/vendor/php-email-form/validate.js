@@ -81,5 +81,14 @@
     // thisForm.querySelector('.error-message').innerHTML = error;
     // thisForm.querySelector('.error-message').classList.add('d-block');
   }
-
 })();
+
+function submitForm() {
+  // Assuming your form has the ID 'contact-form'
+  document.getElementById('contact-form').submit();
+  setTimeout(clearForm, 5000); // Reset after 5 seconds (5000 milliseconds)
+}
+
+function clearForm() {
+  document.getElementById('contact-form').reset();
+}
