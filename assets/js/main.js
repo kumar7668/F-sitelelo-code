@@ -293,3 +293,12 @@
   new PureCounter();
 
 })();
+function submitForm() {
+  // Assuming your form has the ID 'contact-form'
+  document.getElementById('contact-form').submit();
+  setTimeout(clearForm, 2000); // Reset after 5 seconds (5000 milliseconds)
+}
+
+function clearForm() {
+  document.getElementById('contact-form').reset();
+}
