@@ -43,7 +43,7 @@ h6 {
 # Sections
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 50px 0;
   overflow: hidden;
 }
 
@@ -478,6 +478,15 @@ section {
   background: url(../img/hero-bg.png) top center no-repeat;
   background-size: cover;
 }
+.hero-subpage {
+  width: 100%;
+  height: 80vh;
+  background: url(../img/hero-bg.png) top center no-repeat;
+  background-size: cover;
+}
+
+.img-fill{height: -webkit-fill-available !important;
+}
 
 .hero h1 {
   margin: 0;
@@ -589,9 +598,12 @@ section {
 }
 
 .about p {
-  margin: 15px 0 30px 0;
+  margin: 5px 0 15px 0;
   line-height: 24px;
 }
+.doc_class{margin: 35px 15px 15px 15px;}
+
+.doc_li{margin: 5px;}
 
 .about .btn-read-more {
   line-height: 0;
@@ -2318,6 +2330,15 @@ section {
   }
 }
 
+@media (max-width: 767px) {
+.txt-center{
+  text-align: center !important;
+}
+}
+.logo_style{
+  border-radius: 50px;
+}
+
 .footer .footer-top .footer-info {
   margin-bottom: 30px;
 }
@@ -2423,4 +2444,12 @@ section {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+.whatsapp{ 
+  width: 59%;
+}
+
+.bg_row{
+  background: #fafbff;
 }
