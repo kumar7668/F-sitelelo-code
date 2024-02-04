@@ -1,8 +1,8 @@
-<h1>SiteLelo Client Website</h1>
+SiteLelo Client Website
 This website was created for a client of SiteLelo using HTML, CSS, PHP, JavaScript, and more to meet their business needs.
 
 Website URL
-Visit the website here
+Visit the website here -> https://sitelelo.in/
 
 Technologies Used
 HTML: Used for structuring the content of the website.
